@@ -18,4 +18,4 @@ class Solution:
                 dr, dc = r2 - r1, c2 - c1
                 shift_count[(dr, dc)] += 1
         
-        return max(shift_count.values())
+        return max(shift_count.values()) #
