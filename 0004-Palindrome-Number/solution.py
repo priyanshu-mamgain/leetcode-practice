@@ -11,4 +11,4 @@ class Solution:
             reverse = reverse * 10 + digit
             x = x // 10
 
-        return original == reverse
+        return original == reverse #
