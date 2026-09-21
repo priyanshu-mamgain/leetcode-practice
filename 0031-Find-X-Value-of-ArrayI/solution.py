@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Solution:
     def resultArray(self, nums: List[int], k: int) -> List[int]:
         result = [0] * k
