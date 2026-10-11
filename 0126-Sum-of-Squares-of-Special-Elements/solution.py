@@ -8,7 +8,7 @@ class Solution:
         n = len(nums)
 
         for i in range(len(nums)):
-            if n % (i + 1) == 0:
+            if n % (i + 1) == 0:            
                 total += nums[i] * nums[i]
 
-        return total
+        return total 
