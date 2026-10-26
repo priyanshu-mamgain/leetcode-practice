@@ -1,4 +1,5 @@
 class Solution:
+    
     def closedIsland(self, grid: List[List[int]]) -> int:
         rows = len(grid)
         cols = len(grid[0])
